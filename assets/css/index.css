@@ -1,0 +1,16 @@
+/* Agrega esto en tu archivo CSS */
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('../font/PricedownBl.otf') format('otf');
+}
+.titulo {
+    font-family: 'MiFuentePersonalizada';
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background: #a682b0;
+}
